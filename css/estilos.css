@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top right, #ffffff, #595969, #5e735e, #ffffff); clip-path: 50% 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.login-box {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.login-box h2 {
+    text-align: center;
+}
+
+.login-box input, .login-box button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+form, table {
+    margin: 20px auto;
+    width: 80%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+input, select, button {
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 2px;
+    margin: 7px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(70px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+a:hover {
+    background-color: #fff;
+    color: #121212;
+    transform: scale(1.05);
+}
+
+a:active {
+    background-color: #333;
+}
+
+        /* Estilo del scrollbar */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #663399;
+            border-radius: 10px;
+            border: 3px solid rgba(0, 0, 0, 0.1);
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #ff3b2f;
+        }
